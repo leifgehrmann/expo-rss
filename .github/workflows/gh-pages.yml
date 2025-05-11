@@ -29,10 +29,11 @@ jobs:
     - name: Run script to generate XML
       run: |
         mkdir ./public
-        node index.js > ./public/expo-rss-atom.xml 
+        node index.js > ./public/atom.xml 
     - name: Setup dist folder for github.io
       run: |
         touch ./public/.nojekyll
+        echo "expo-rss.leifgehrmann.com" >> ./public/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
