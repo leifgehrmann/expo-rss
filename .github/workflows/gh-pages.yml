@@ -1,0 +1,38 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+    - master
+  schedule:
+    - cron: '0 6 * * 1'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22.x
+    - name: Install dependencies
+      run: |
+        npm ci
+    - name: Run script to generate XML
+      run: |
+        mkdir ./public
+        node index.js > ./public/expo-rss-atom.xml 
+    - name: Setup dist folder for github.io
+      run: |
+        touch ./public/.nojekyll
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./public
+        force_orphan: true
