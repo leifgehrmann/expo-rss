@@ -28,13 +28,10 @@ jobs:
       run: |
         mkdir ./public
         node index.js ${{ github.event_name }} > ./public/atom.xml
-        has_posts=`[[ -s ./public/atom.xml ]] && echo "no" || echo "yes"`
+        has_posts=`[[ -s ./public/atom.xml ]] && echo "yes" || echo "no"`
         echo "has_posts=$has_posts" >> "$GITHUB_ENV"
-        echo ${{ github.event_name }} # debug
-        echo ${{ env.has_posts }} # debug
     - name: Setup dist folder for github.io
       run: |
-        echo ${{ env.has_posts }} # debug
         touch ./public/.nojekyll
         echo "expo-rss.leifgehrmann.com" >> ./public/CNAME
     - name: Deploy
