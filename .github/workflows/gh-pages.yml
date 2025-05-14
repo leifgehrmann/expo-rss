@@ -10,13 +10,11 @@ on:
     branches:
     - main
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '0 6 * * *'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js
@@ -29,14 +27,19 @@ jobs:
     - name: Run script to generate XML
       run: |
         mkdir ./public
-        node index.js > ./public/atom.xml 
+        node index.js ${{ github.event_name }} > ./public/atom.xml
+        has_posts=`[[ -s ./public/atom.xml ]] && echo "no" || echo "yes"`
+        echo "has_posts=$has_posts" >> "$GITHUB_ENV"
+        echo ${{ github.event_name }} # debug
+        echo ${{ env.has_posts }} # debug
     - name: Setup dist folder for github.io
       run: |
+        echo ${{ env.has_posts }} # debug
         touch ./public/.nojekyll
         echo "expo-rss.leifgehrmann.com" >> ./public/CNAME
-
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
+      if: ${{ env.has_posts == 'yes' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages

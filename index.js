@@ -21,7 +21,7 @@ function parseDate(date) {
     }
     const day = Number.parseInt(datePieces[1]);
     const year = Number.parseInt(datePieces[2]);
-    return new Date(year, month - 1, day).toISOString();
+    return new Date(year, month - 1, day);
 }
 
 function escapeToHtml(str) {
@@ -29,6 +29,12 @@ function escapeToHtml(str) {
         .replaceAll('&', '&amp;')
         .replaceAll('<', '&lt;')
         .replaceAll('>', '&gt;');
+}
+
+function sameDay(d1, d2) {
+    return d1.getFullYear() === d2.getFullYear() &&
+        d1.getMonth() === d2.getMonth() &&
+        d1.getDate() === d2.getDate();
 }
 
 async function main() {
@@ -75,7 +81,7 @@ async function main() {
             <entry>
                 <title>${ escapeToHtml(entry.title) }</title>
                 <link href="${entry.url}"/>
-                <updated>${entry.date}</updated>
+                <updated>${entry.date.toISOString()}</updated>
                 <author><name>${escapeToHtml(entry.author)}</name></author>
                 <id>${entry.url}</id>
             </entry>
@@ -91,7 +97,21 @@ async function main() {
     ${entriesXml.join("")}
     </feed>`;
 
-    console.log(feed);
+    // When running inside a scheduled GitHub action, we only want to output
+    // a file if there was a new post from yesterday. This is to avoid
+    // unnecessary commits to the gh-pages branch every day. We check
+    // yesterday because if we checked today we might miss out on posts that
+    // are published later today.
+    let shouldOutput = true;
+    if (process.argv[2] === 'schedule') {
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+       shouldOutput = entries.filter((entry) => sameDay(entry.date, yesterday)).length > 0;
+    }
+
+    if (shouldOutput) {
+        console.log(feed);
+    }
 }
 
 main();
