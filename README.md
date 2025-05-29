@@ -1,8 +1,10 @@
-# Expo-RSS
+# Custom RSS Feeds
 
-Expo's [Changelog](https://expo.dev/changelog) doesn't have an RSS feed.
+Many websites don't have a nice RSS feed. This repostory is a collection of scripts that generates RSS feeds for random stuff online. Updates daily.
 
-This project provides an RSS feed that updates every week at `https://expo-rss.leifgehrmann.com/atom.xml`.
+| Website | RSS Feed |
+|---------|----------|
+| [Expo Changelog](https://expo.dev/changelog) | [expo-changelog.xml](https://expo-rss.leifgehrmann.com/expo-changelog.xml) |
 
 ## Development
 
@@ -10,5 +12,5 @@ This project requires Node.js be installed.
 
 ```shell
 npm ci
-node index.js > atom.xml
+node feeds/expo-changelog.js > expo-changelog.xml
 ```

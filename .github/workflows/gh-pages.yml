@@ -27,8 +27,8 @@ jobs:
     - name: Run script to generate XML
       run: |
         mkdir ./public
-        node index.js ${{ github.event_name }} > ./public/atom.xml
-        has_posts=`[[ -s ./public/atom.xml ]] && echo "yes" || echo "no"`
+        node feeds/expo-changelog.js ${{ github.event_name }} > ./public/expo-changelog.xml
+        has_posts=`[[ -s ./public/expo-changelog.xml || -s ./public/android-latest.json ]] && echo "yes" || echo "no"`
         echo "has_posts=$has_posts" >> "$GITHUB_ENV"
     - name: Setup dist folder for github.io
       run: |
