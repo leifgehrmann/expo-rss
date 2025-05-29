@@ -1,14 +1,13 @@
 {
-  "name": "expo-rss",
+  "name": "custom-rss-feeds",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leifgehrmann/expo-rss.git"
+    "url": "git+https://github.com/leifgehrmann/custom-rss-feeds.git"
   },
   "license": "MIT",
   "author": "Leif Gehrmann",
   "type": "module",
-  "main": "index.js",
   "dependencies": {
     "jsdom": "^26.1.0"
   }

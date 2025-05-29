@@ -34,7 +34,7 @@ jobs:
     - name: Setup dist folder for github.io
       run: |
         touch ./public/.nojekyll
-        echo "expo-rss.leifgehrmann.com" >> ./public/CNAME
+        echo "custom-rss-feeds.leifgehrmann.com" >> ./public/CNAME
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ env.has_posts == 'yes' }}

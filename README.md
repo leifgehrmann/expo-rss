@@ -4,8 +4,8 @@ Many websites don't have an RSS feed to follow the news. Or if they do, they are
 
 | Website | RSS Feed |
 |---------|----------|
-| [Expo Changelog](https://expo.dev/changelog) | [expo-changelog.xml](https://expo-rss.leifgehrmann.com/expo-changelog.xml) |
-| [Android Developer Blog – Latest](https://android-developers.googleblog.com/search/label/latest) | [android-latest.xml](https://expo-rss.leifgehrmann.com/android-latest.xml) |
+| [Expo Changelog](https://expo.dev/changelog) | [expo-changelog.xml](https://custom-rss-feeds.leifgehrmann.com/expo-changelog.xml) |
+| [Android Developer Blog – Latest](https://android-developers.googleblog.com/search/label/latest) | [android-latest.xml](https://custom-rss-feeds.leifgehrmann.com/android-latest.xml) |
 
 ## Development
 
