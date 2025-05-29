@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Android Developers - Latest</title>
+<link href="https://android-developers.googleblog.com/search/label/latest/"/>
+<updated>2025-05-29T22:12:07.843Z</updated>
+<id>https://android-developers.googleblog.com/search/label/latest</id>
+
+            <entry>
+                <title>The Fourth Beta of Android 16</title>
+                <link href="https://android-developers.googleblog.com/2025/04/the-fourth-beta-of-android-16.html"/>
+                <updated>2025-04-17T00:00:00.000Z</updated>
+                <author><name>Android Developers</name></author>
+                <id>https://android-developers.googleblog.com/2025/04/the-fourth-beta-of-android-16.html</id>
+            </entry>
+        
+            <entry>
+                <title>The Third Beta of Android 16</title>
+                <link href="https://android-developers.googleblog.com/2025/03/the-third-beta-of-android-16.html"/>
+                <updated>2025-03-13T00:00:00.000Z</updated>
+                <author><name>Android Developers</name></author>
+                <id>https://android-developers.googleblog.com/2025/03/the-third-beta-of-android-16.html</id>
+            </entry>
+        
+            <entry>
+                <title>The Second Beta of Android 16</title>
+                <link href="https://android-developers.googleblog.com/2025/02/second-beta-android16.html"/>
+                <updated>2025-02-13T00:00:00.000Z</updated>
+                <author><name>Android Developers</name></author>
+                <id>https://android-developers.googleblog.com/2025/02/second-beta-android16.html</id>
+            </entry>
+        
+            <entry>
+                <title>The First Beta of Android 16</title>
+                <link href="https://android-developers.googleblog.com/2025/01/first-beta-android16.html"/>
+                <updated>2025-01-23T00:00:00.000Z</updated>
+                <author><name>Android Developers</name></author>
+                <id>https://android-developers.googleblog.com/2025/01/first-beta-android16.html</id>
+            </entry>
+        
+</feed>
