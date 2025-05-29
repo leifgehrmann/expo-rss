@@ -28,7 +28,8 @@ jobs:
       run: |
         mkdir ./public
         node feeds/expo-changelog.js ${{ github.event_name }} > ./public/expo-changelog.xml
-        has_posts=`[[ -s ./public/expo-changelog.xml || -s ./public/android-latest.json ]] && echo "yes" || echo "no"`
+        node feeds/android-latest.js ${{ github.event_name }} > ./public/android-latest.xml
+        has_posts=`[[ -s ./public/expo-changelog.xml || -s ./public/android-latest.xml ]] && echo "yes" || echo "no"`
         echo "has_posts=$has_posts" >> "$GITHUB_ENV"
     - name: Setup dist folder for github.io
       run: |

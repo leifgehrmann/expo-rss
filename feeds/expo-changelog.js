@@ -2,7 +2,7 @@ import { JSDOM } from 'jsdom';
 import { entriesToAtom } from '../src/atom.js';
 import { shouldOutput } from '../src/scheduleCheck.js';
 
-// Expo's articles are subtitled with the date in the following format:
+// Articles are subtitled with the date in the following format:
 // "[Month] [day], [year] by"
 function parseDate(date) {
     const datePieces = date.split(' ');
@@ -19,7 +19,7 @@ function parseDate(date) {
         case 'Sep': month = 9; break;
         case 'Oct': month = 10; break;
         case 'Nov': month = 11; break;
-        case 'Dev': month = 12; break;
+        case 'Dec': month = 12; break;
     }
     const day = Number.parseInt(datePieces[1]);
     const year = Number.parseInt(datePieces[2]);
