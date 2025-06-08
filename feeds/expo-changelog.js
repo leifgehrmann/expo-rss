@@ -65,7 +65,7 @@ async function main() {
         });
     })
 
-    if (shouldOutput()) {
+    if (shouldOutput(entries)) {
         const feed = entriesToAtom(
             'Expo Changelog',
             url,
