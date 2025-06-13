@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Expo Changelog</title>
+<link href="https://expo.dev/changelog/"/>
+<updated>2025-06-13T06:07:35.275Z</updated>
+<id>https://expo.dev/changelog</id>
+
+            <entry>
+                <title>Expo support for React Native 0.80</title>
+                <link href="https://expo.dev/changelog/react-native-80"/>
+                <updated>2025-06-12T00:00:00.000Z</updated>
+                <author><name>Gabriel Donadel</name></author>
+                <id>https://expo.dev/changelog/react-native-80</id>
+            </entry>
+        
+            <entry>
+                <title>Incremental EAS Hosting changes: May 2025</title>
+                <link href="https://expo.dev/changelog/incremental-eas-hosting-changes"/>
+                <updated>2025-05-27T00:00:00.000Z</updated>
+                <author><name>Phil Pluckthun</name></author>
+                <id>https://expo.dev/changelog/incremental-eas-hosting-changes</id>
+            </entry>
+        
+            <entry>
+                <title>New project sidebar design and custom avatars/project icons</title>
+                <link href="https://expo.dev/changelog/website-updates-05-07-2025"/>
+                <updated>2025-05-07T00:00:00.000Z</updated>
+                <author><name>Juwan Wheatley</name></author>
+                <id>https://expo.dev/changelog/website-updates-05-07-2025</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 53</title>
+                <link href="https://expo.dev/changelog/sdk-53"/>
+                <updated>2025-04-30T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/sdk-53</id>
+            </entry>
+        
+            <entry>
+                <title>New build comparison tool, Expo Router landing page, and UX improvements</title>
+                <link href="https://expo.dev/changelog/website-updates-4-29-2025"/>
+                <updated>2025-04-29T00:00:00.000Z</updated>
+                <author><name>Juwan Wheatley</name></author>
+                <id>https://expo.dev/changelog/website-updates-4-29-2025</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 53 beta is now available</title>
+                <link href="https://expo.dev/changelog/sdk-53-beta"/>
+                <updated>2025-04-11T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/sdk-53-beta</id>
+            </entry>
+        
+            <entry>
+                <title>SDK 52 patches for Xcode 16.3</title>
+                <link href="https://expo.dev/changelog/xcode-16-3-patches"/>
+                <updated>2025-04-01T00:00:00.000Z</updated>
+                <author><name>Christian Falch</name></author>
+                <id>https://expo.dev/changelog/xcode-16-3-patches</id>
+            </entry>
+        
+            <entry>
+                <title>EAS Build &amp; Workflows: introducing M4 Pro</title>
+                <link href="https://expo.dev/changelog/eas-build-workflows-m4-pro"/>
+                <updated>2025-03-25T00:00:00.000Z</updated>
+                <author><name>James Ide</name></author>
+                <id>https://expo.dev/changelog/eas-build-workflows-m4-pro</id>
+            </entry>
+        
+            <entry>
+                <title>Improved project and account profile icons coming soon, will replace old icons</title>
+                <link href="https://expo.dev/changelog/improved-profile-icons-soon"/>
+                <updated>2025-03-08T00:00:00.000Z</updated>
+                <author><name>James Ide</name></author>
+                <id>https://expo.dev/changelog/improved-profile-icons-soon</id>
+            </entry>
+        
+            <entry>
+                <title>Expo support for React Native 0.78</title>
+                <link href="https://expo.dev/changelog/react-native-78"/>
+                <updated>2025-02-18T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/react-native-78</id>
+            </entry>
+        
+            <entry>
+                <title>React Native 0.77 is now available with Expo SDK 52</title>
+                <link href="https://expo.dev/changelog/2025-01-21-react-native-0.77"/>
+                <updated>2025-01-21T00:00:00.000Z</updated>
+                <author><name>Vojtech Novak</name></author>
+                <id>https://expo.dev/changelog/2025-01-21-react-native-0.77</id>
+            </entry>
+        
+            <entry>
+                <title>Project-level usage metrics</title>
+                <link href="https://expo.dev/changelog/2024-12-19-project-level-usage"/>
+                <updated>2024-12-19T00:00:00.000Z</updated>
+                <author><name> Philippe Loulidi</name></author>
+                <id>https://expo.dev/changelog/2024-12-19-project-level-usage</id>
+            </entry>
+        
+            <entry>
+                <title>Privacy policy updated: DPF replaces Privacy Shield</title>
+                <link href="https://expo.dev/changelog/2024-12-17-dpf-replaces-privacy-shield"/>
+                <updated>2024-12-17T00:00:00.000Z</updated>
+                <author><name>Keith Kurak</name></author>
+                <id>https://expo.dev/changelog/2024-12-17-dpf-replaces-privacy-shield</id>
+            </entry>
+        
+            <entry>
+                <title>Channel pausing for EAS Update</title>
+                <link href="https://expo.dev/changelog/2024-11-14-channel-pausing"/>
+                <updated>2024-11-14T00:00:00.000Z</updated>
+                <author><name>Juwan Wheatley</name></author>
+                <id>https://expo.dev/changelog/2024-11-14-channel-pausing</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 52</title>
+                <link href="https://expo.dev/changelog/2024-11-12-sdk-52"/>
+                <updated>2024-11-12T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2024-11-12-sdk-52</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 52 beta is now available</title>
+                <link href="https://expo.dev/changelog/2024-10-24-sdk-52-beta"/>
+                <updated>2024-10-24T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2024-10-24-sdk-52-beta</id>
+            </entry>
+        
+            <entry>
+                <title>Security activity record available to all users</title>
+                <link href="https://expo.dev/changelog/2024-10-14-security-activity"/>
+                <updated>2024-10-14T00:00:00.000Z</updated>
+                <author><name> Josh McFarlin</name></author>
+                <id>https://expo.dev/changelog/2024-10-14-security-activity</id>
+            </entry>
+        
+            <entry>
+                <title>Android builds are now 40% faster</title>
+                <link href="https://expo.dev/changelog/2024-08-29-c3d-default"/>
+                <updated>2024-08-29T00:00:00.000Z</updated>
+                <author><name>Stanisław Chmiela</name></author>
+                <id>https://expo.dev/changelog/2024-08-29-c3d-default</id>
+            </entry>
+        
+            <entry>
+                <title>Audit logs available to enterprise users</title>
+                <link href="https://expo.dev/changelog/2024-08-21-audit-logs-available"/>
+                <updated>2024-08-21T00:00:00.000Z</updated>
+                <author><name> Josh McFarlin</name></author>
+                <id>https://expo.dev/changelog/2024-08-21-audit-logs-available</id>
+            </entry>
+        
+            <entry>
+                <title>React Native 0.75 is now available with Expo SDK 51</title>
+                <link href="https://expo.dev/changelog/2024-08-14-react-native-0.75"/>
+                <updated>2024-08-14T00:00:00.000Z</updated>
+                <author><name>Gabriel Donadel</name></author>
+                <id>https://expo.dev/changelog/2024-08-14-react-native-0.75</id>
+            </entry>
+        
+            <entry>
+                <title>EAS Build: Upcoming Android images updates</title>
+                <link href="https://expo.dev/changelog/2024-07-12-eas-build-upcoming-android-images-updates"/>
+                <updated>2024-07-12T00:00:00.000Z</updated>
+                <author><name>Szymon Dziedzic</name></author>
+                <id>https://expo.dev/changelog/2024-07-12-eas-build-upcoming-android-images-updates</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 51</title>
+                <link href="https://expo.dev/changelog/2024-05-07-sdk-51"/>
+                <updated>2024-05-07T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2024-05-07-sdk-51</id>
+            </entry>
+        
+            <entry>
+                <title>EAS Build: Pricing update</title>
+                <link href="https://expo.dev/changelog/2024-05-02-fast-failed-builds-exclusion"/>
+                <updated>2024-05-02T00:00:00.000Z</updated>
+                <author><name>Chris Jensen</name></author>
+                <id>https://expo.dev/changelog/2024-05-02-fast-failed-builds-exclusion</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 51 beta is now available</title>
+                <link href="https://expo.dev/changelog/2024-04-24-sdk-51-beta"/>
+                <updated>2024-04-24T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2024-04-24-sdk-51-beta</id>
+            </entry>
+        
+            <entry>
+                <title>Xcode 15.3 image is now available on EAS Build</title>
+                <link href="https://expo.dev/changelog/2024-04-05-eas-build-xcode-15.3-image"/>
+                <updated>2024-04-05T00:00:00.000Z</updated>
+                <author><name>Szymon Dziedzic</name></author>
+                <id>https://expo.dev/changelog/2024-04-05-eas-build-xcode-15.3-image</id>
+            </entry>
+        
+            <entry>
+                <title>EAS Build: Upcoming iOS images updates</title>
+                <link href="https://expo.dev/changelog/2024-03-29-eas-build-upcoming-ios-images-updates"/>
+                <updated>2024-03-29T00:00:00.000Z</updated>
+                <author><name>Szymon Dziedzic</name></author>
+                <id>https://expo.dev/changelog/2024-03-29-eas-build-upcoming-ios-images-updates</id>
+            </entry>
+        
+            <entry>
+                <title>Expo Router v3: API Routes, bundle splitting, speed improvements, and more</title>
+                <link href="https://expo.dev/changelog/2024-01-23-router-3"/>
+                <updated>2024-01-23T00:00:00.000Z</updated>
+                <author><name>Evan Bacon</name></author>
+                <id>https://expo.dev/changelog/2024-01-23-router-3</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 50</title>
+                <link href="https://expo.dev/changelog/2024-01-18-sdk-50"/>
+                <updated>2024-01-18T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2024-01-18-sdk-50</id>
+            </entry>
+        
+            <entry>
+                <title>Xcode 15.2 image is now available on EAS Build</title>
+                <link href="https://expo.dev/changelog/2024-01-18-eas-build-xcode-15.2-image"/>
+                <updated>2024-01-18T00:00:00.000Z</updated>
+                <author><name>Szymon Dziedzic</name></author>
+                <id>https://expo.dev/changelog/2024-01-18-eas-build-xcode-15.2-image</id>
+            </entry>
+        
+            <entry>
+                <title>Expo 2023: The year in review</title>
+                <link href="https://expo.dev/changelog/2023-12-20-2023-year-in-review"/>
+                <updated>2023-12-20T00:00:00.000Z</updated>
+                <author><name>Jon Samp</name></author>
+                <id>https://expo.dev/changelog/2023-12-20-2023-year-in-review</id>
+            </entry>
+        
+            <entry>
+                <title>Xcode 15.1 image is now available on EAS Build</title>
+                <link href="https://expo.dev/changelog/2023-12-19-eas-build-xcode-15.1-image"/>
+                <updated>2023-12-19T00:00:00.000Z</updated>
+                <author><name>Szymon Dziedzic</name></author>
+                <id>https://expo.dev/changelog/2023-12-19-eas-build-xcode-15.1-image</id>
+            </entry>
+        
+            <entry>
+                <title>EAS Update: new dashboard UI features</title>
+                <link href="https://expo.dev/changelog/2023-12-13-eas-update-ui"/>
+                <updated>2023-12-13T00:00:00.000Z</updated>
+                <author><name> Tomasz Czajecki</name></author>
+                <id>https://expo.dev/changelog/2023-12-13-eas-update-ui</id>
+            </entry>
+        
+            <entry>
+                <title>Expo SDK 50 beta is now available</title>
+                <link href="https://expo.dev/changelog/2023-12-12-sdk-50-beta"/>
+                <updated>2023-12-12T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2023-12-12-sdk-50-beta</id>
+            </entry>
+        
+            <entry>
+                <title>Keep your cache close — it’s faster!</title>
+                <link href="https://expo.dev/changelog/2023-12-07-cocoapods-cache"/>
+                <updated>2023-12-07T00:00:00.000Z</updated>
+                <author><name>Stanisław Chmiela</name></author>
+                <id>https://expo.dev/changelog/2023-12-07-cocoapods-cache</id>
+            </entry>
+        
+            <entry>
+                <title>Introducing Build Annotations</title>
+                <link href="https://expo.dev/changelog/2023-12-01-build-annotations"/>
+                <updated>2023-12-01T00:00:00.000Z</updated>
+                <author><name>Kadi Kraman</name></author>
+                <id>https://expo.dev/changelog/2023-12-01-build-annotations</id>
+            </entry>
+        
+            <entry>
+                <title>Speed up your development workflow with Automatic GitHub builds</title>
+                <link href="https://expo.dev/changelog/2023-11-29-automatic-github-builds"/>
+                <updated>2023-11-29T00:00:00.000Z</updated>
+                <author><name>Juwan Wheatley</name></author>
+                <id>https://expo.dev/changelog/2023-11-29-automatic-github-builds</id>
+            </entry>
+        
+            <entry>
+                <title>Expo Orbit v1: launcher app launched into orbit</title>
+                <link href="https://expo.dev/changelog/2023-11-14-orbit-v1"/>
+                <updated>2023-11-14T00:00:00.000Z</updated>
+                <author><name>Gabriel Donadel</name></author>
+                <id>https://expo.dev/changelog/2023-11-14-orbit-v1</id>
+            </entry>
+        
+            <entry>
+                <title>EAS Build: Upgrading default Node.js version from 16 to 18 on November 27th, 2023</title>
+                <link href="https://expo.dev/changelog/2023-11-03-node-default"/>
+                <updated>2023-11-03T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2023-11-03-node-default</id>
+            </entry>
+        
+            <entry>
+                <title>Refreshed Sidebar Navigation in Dashboard</title>
+                <link href="https://expo.dev/changelog/2023-10-26-refreshed-sidebar"/>
+                <updated>2023-10-26T00:00:00.000Z</updated>
+                <author><name> Tomasz Czajecki</name></author>
+                <id>https://expo.dev/changelog/2023-10-26-refreshed-sidebar</id>
+            </entry>
+        
+            <entry>
+                <title>Fix for CVE-2023-4863 in expo-image@1.3.4</title>
+                <link href="https://expo.dev/changelog/2023-09-29-libwebp"/>
+                <updated>2023-09-29T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2023-09-29-libwebp</id>
+            </entry>
+        
+            <entry>
+                <title>Xcode 15 and iOS 17</title>
+                <link href="https://expo.dev/changelog/2023-09-28-new-xcode-ios"/>
+                <updated>2023-09-28T00:00:00.000Z</updated>
+                <author><name>Brent Vatne</name></author>
+                <id>https://expo.dev/changelog/2023-09-28-new-xcode-ios</id>
+            </entry>
+        
+            <entry>
+                <title>Support for Bun in EAS and Expo CLI</title>
+                <link href="https://expo.dev/changelog/2023-09-25-eas-bun-support"/>
+                <updated>2023-09-25T00:00:00.000Z</updated>
+                <author><name>Kadi Kraman</name></author>
+                <id>https://expo.dev/changelog/2023-09-25-eas-bun-support</id>
+            </entry>
+        
+            <entry>
+                <title>Introducing Notification Center</title>
+                <link href="https://expo.dev/changelog/2023-09-12-notification-center"/>
+                <updated>2023-09-12T00:00:00.000Z</updated>
+                <author><name>Steven Songqi Pu</name></author>
+                <id>https://expo.dev/changelog/2023-09-12-notification-center</id>
+            </entry>
+        
+            <entry>
+                <title>Pinning Projects in Dashboard</title>
+                <link href="https://expo.dev/changelog/2023-08-25-pinning-projects"/>
+                <updated>2023-08-25T00:00:00.000Z</updated>
+                <author><name> Tomasz Czajecki</name></author>
+                <id>https://expo.dev/changelog/2023-08-25-pinning-projects</id>
+            </entry>
+        
+            <entry>
+                <title>Understand your users and grow your app with EAS Insights</title>
+                <link href="https://expo.dev/changelog/2023-08-22-insights"/>
+                <updated>2023-08-22T00:00:00.000Z</updated>
+                <author><name>Chris Walter</name></author>
+                <id>https://expo.dev/changelog/2023-08-22-insights</id>
+            </entry>
+        
+            <entry>
+                <title>Preview: fully customizable builds on EAS Build</title>
+                <link href="https://expo.dev/changelog/2023-08-10-custom-builds"/>
+                <updated>2023-08-10T00:00:00.000Z</updated>
+                <author><name>Szymon Dziedzic</name></author>
+                <id>https://expo.dev/changelog/2023-08-10-custom-builds</id>
+            </entry>
+        
+            <entry>
+                <title>Proof of concept: Expo CLI Dev Tools Plugins</title>
+                <link href="https://expo.dev/changelog/2023-08-10-dev-tools-plugins"/>
+                <updated>2023-08-10T00:00:00.000Z</updated>
+                <author><name>Kudo Chien</name></author>
+                <id>https://expo.dev/changelog/2023-08-10-dev-tools-plugins</id>
+            </entry>
+        
+            <entry>
+                <title>Proof of concept: expo-sqlite integration with CR-SQLite</title>
+                <link href="https://expo.dev/changelog/2023-08-10-cr-sqlite"/>
+                <updated>2023-08-10T00:00:00.000Z</updated>
+                <author><name>Alan Hughes</name></author>
+                <id>https://expo.dev/changelog/2023-08-10-cr-sqlite</id>
+            </entry>
+        
+            <entry>
+                <title>Expo Orbit: Download and launch builds</title>
+                <link href="https://expo.dev/changelog/2023-08-09-orbit"/>
+                <updated>2023-08-09T00:00:00.000Z</updated>
+                <author><name>Gabriel Donadel</name></author>
+                <id>https://expo.dev/changelog/2023-08-09-orbit</id>
+            </entry>
+        
+            <entry>
+                <title>UseUpdates() API for expo-updates</title>
+                <link href="https://expo.dev/changelog/2023-08-08-use-updates-api"/>
+                <updated>2023-08-08T00:00:00.000Z</updated>
+                <author><name>Doug Lowder</name></author>
+                <id>https://expo.dev/changelog/2023-08-08-use-updates-api</id>
+            </entry>
+        
+            <entry>
+                <title>Single Sign-On (SSO)</title>
+                <link href="https://expo.dev/changelog/2023-08-08-sso"/>
+                <updated>2023-08-08T00:00:00.000Z</updated>
+                <author><name>Will Schurman</name></author>
+                <id>https://expo.dev/changelog/2023-08-08-sso</id>
+            </entry>
+        
+            <entry>
+                <title>Rollouts for EAS Update</title>
+                <link href="https://expo.dev/changelog/2023-08-08-rollouts-eas-update"/>
+                <updated>2023-08-08T00:00:00.000Z</updated>
+                <author><name>Quin Jung</name></author>
+                <id>https://expo.dev/changelog/2023-08-08-rollouts-eas-update</id>
+            </entry>
+        
+            <entry>
+                <title>New Dashboard Tables and More Timeline Activities</title>
+                <link href="https://expo.dev/changelog/2023-08-02-new-tables-and-timeline-activities"/>
+                <updated>2023-08-02T00:00:00.000Z</updated>
+                <author><name> Tomasz Czajecki</name></author>
+                <id>https://expo.dev/changelog/2023-08-02-new-tables-and-timeline-activities</id>
+            </entry>
+        
+            <entry>
+                <title>Enforcement of EAS Free plan limits</title>
+                <link href="https://expo.dev/changelog/2023-08-01-eas-free-plan-limits"/>
+                <updated>2023-08-01T00:00:00.000Z</updated>
+                <author><name>Chris Jensen</name></author>
+                <id>https://expo.dev/changelog/2023-08-01-eas-free-plan-limits</id>
+            </entry>
+        
+            <entry>
+                <title>Expo VS Code theme</title>
+                <link href="https://expo.dev/changelog/2023-07-24-vscode-theme"/>
+                <updated>2023-07-24T00:00:00.000Z</updated>
+                <author><name>Bartosz Kaszubowski</name></author>
+                <id>https://expo.dev/changelog/2023-07-24-vscode-theme</id>
+            </entry>
+        
+            <entry>
+                <title>Link your GitHub repo with Expo</title>
+                <link href="https://expo.dev/changelog/2023-07-19-github-linking"/>
+                <updated>2023-07-19T00:00:00.000Z</updated>
+                <author><name>Juwan Wheatley</name></author>
+                <id>https://expo.dev/changelog/2023-07-19-github-linking</id>
+            </entry>
+        
+            <entry>
+                <title>Improved Expo Docs organization</title>
+                <link href="https://expo.dev/changelog/2023-07-05-docs-organization"/>
+                <updated>2023-07-05T00:00:00.000Z</updated>
+                <author><name>Aman Mittal</name></author>
+                <id>https://expo.dev/changelog/2023-07-05-docs-organization</id>
+            </entry>
+        
+            <entry>
+                <title>App.js 2023</title>
+                <link href="https://expo.dev/changelog/2023-05-03-app-js"/>
+                <updated>2023-05-03T00:00:00.000Z</updated>
+                <author><name>Jon Samp</name></author>
+                <id>https://expo.dev/changelog/2023-05-03-app-js</id>
+            </entry>
+        
+            <entry>
+                <title>Changes summary Q4 2022</title>
+                <link href="https://expo.dev/changelog/2023-01-31-q4-summary"/>
+                <updated>2023-01-31T00:00:00.000Z</updated>
+                <author><name>Jon Samp</name></author>
+                <id>https://expo.dev/changelog/2023-01-31-q4-summary</id>
+            </entry>
+        
+</feed>
